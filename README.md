@@ -54,14 +54,3 @@ Robinson, J. (2026). _Hallucinations Are Not Random._ Zenodo. https://doi.org/[p
 ## License
 
 CC BY 4.0 — Joel Robinson
-
-If you want, I can also generate:
-
-- **A version with a DOI badge placeholder**
-    
-- **A version formatted for arXiv**
-    
-- **A version formatted for GitHub Pages**
-    
-
-Just pick the one you want.
