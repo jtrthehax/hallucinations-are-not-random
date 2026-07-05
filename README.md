@@ -1,4 +1,5 @@
 # Hallucinations Are Not Random
+[![DOI](https://zenodo.org/badge/1290349582.svg)](https://doi.org/10.5281/zenodo.21210606)
 
 A structural account of why LLM hallucinations are deterministic, predictable, and fixable at the input layer — and why the field’s stochastic framing is falsified by the data it already has.
 
@@ -49,7 +50,7 @@ The Semantic Deconstruction Engine (SDE) is the applied tool built on this argum
 
 ## Citation
 
-Robinson, J. (2026). _Hallucinations Are Not Random._ Zenodo. https://doi.org/[pending]
+Robinson, J. (2026). _Hallucinations Are Not Random._ Zenodo. https://doi.org/10.5281/zenodo.21210606
 
 ## License
 
