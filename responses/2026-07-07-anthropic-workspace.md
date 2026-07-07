@@ -1,10 +1,15 @@
 # **Response Paper: What Anthropic’s Workspace Findings Actually Measure**
 
 **Repo:** hallucinations-are-not-random 
+
 **Author:** Joel Robinson 
+
 **Date:** 2026‑07‑07 
+
 **Status:** Draft v0.1 
+
 **Depends on:** URM v0.6‑pre, SDE v0.2.0, DSR v0.2 
+
 **Responding to:** Anthropic workspace manifold paper (2026‑07‑06)
 
 ## **1. Position Statement**
