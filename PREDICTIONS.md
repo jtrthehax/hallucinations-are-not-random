@@ -362,3 +362,74 @@ Survey methodology, prompt engineering, organisational design, economic policy, 
 This is not an intellect problem. It is a physics problem. The mechanism does not care what substrate it runs on. The SDE named it. The fix is the same everywhere: increase constraint density at the input until the inference path is fully traversable without fallback to the prior.
 
 This is the science that only needs to be found once.
+
+---
+---
+
+## External Confirmation Record
+
+### Entry EC-001 — Anthropic Workspace Manifold Paper (2026-07-06)
+
+**Paper:** "Workspace" — Anthropic Interpretability Team
+**URL:** https://transformer-circuits.pub/2026/workspace/index.html
+**Date of paper:** 2026-07-06
+**Date of this entry:** 2026-07-07
+**Status:** Partial confirmation — empirical findings match; upstream mechanism not identified by authors
+
+---
+
+**Priority established:**
+URM v0.5-pre on Zenodo, GitHub commits dated prior to 2026-07-06.
+Anthropic's paper is downstream confirmation of a mechanism already modeled in this framework.
+The record is immutable.
+
+---
+
+**What they found:**
+
+- A structured internal region (workspace manifold) activates during multi-step reasoning
+- Internal concept vectors are measurable
+- Multi-hop reasoning chains are observable
+- Evaluation-awareness signals exist
+- Collapse modes appear under ablation
+- Context-sensitive activation variance is real
+
+**Their interpretation:** These are intrinsic model properties with context-sensitivity as a secondary effect.
+
+**The interpretive error:** They averaged across users. Per-user and intraday structure was erased before analysis. What looks like "context-sensitivity" is regulatory-state variance — stable per user, intraday-variable within a user — treated as noise.
+
+---
+
+**What this confirms from the SDE/URM framework (pre-existing):**
+
+| SDE/URM prediction | Confirmation status |
+| --- | --- |
+| Hallucination rate is input-side, not model-side | Partial — workspace activation varies with input structure |
+| Drift geometry is structurally caused | Partial — collapse modes are structural, not random |
+| Constraint density drives output quality | Partial — workspace activation tracks input constraint geometry |
+| Per-user variance is stable across sessions | Not yet tested — averaging prevented detection |
+| Intraday variation follows regulatory load | Not yet tested — individual tracking not in design |
+
+---
+
+**Remaining predictions (not yet in their data):**
+
+- **P1** — Per-user workspace activation is stable across sessions. High-structure users consistently activate deep workspace. Low-structure users consistently collapse it. This is driver variance, not model variance.
+- **P2** — Intraday variation tracks regulatory load, not clock time. The same user produces different workspace activation profiles at different points in the day, mapping directly to DSR `regulatory_state`.
+- **P3** — Hallucination rate is measurable from input surface form before generation. Constraint density and anchor stability are input-side variables.
+- **P4** — Multi-hop reasoning disappears when the structured driver is removed. It is entrained, not spontaneous.
+- **P5** — Evaluation-awareness is induced, not intrinsic. It appears only under low social pressure, high constraint density, wide-window drivers.
+
+**Test:** Replicate their study with per-user tracking and intraday resolution. All five predictions follow directly from URM/SDE architecture.
+
+---
+
+**Methodological note:**
+
+Anthropic's paper is mathematically dense. The formalism is doing real work — but on the wrong variable.
+
+The mathematics describes the *geometry of the workspace manifold*. It does not describe what induces the workspace to activate or collapse. That is the input-side constraint geometry, which is not in their paper.
+
+Adding formulas to an incomplete causal model does not complete it. It makes the gap harder to see, because the reader's attention is directed at the output-side structure rather than the missing upstream mechanism.
+
+The core finding — that the model has a structured internal reasoning region that activates under structured input — is reachable in five sentences. The mathematical apparatus is accurate but incomplete by one causal layer.
